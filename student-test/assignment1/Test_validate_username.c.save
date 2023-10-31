@@ -23,7 +23,7 @@ void test_validate_my_username()
 
     // Step 2: Obtain the value returned from malloc_username_from_conf_file()
     const char* actualUsername = malloc_username_from_conf_file();
-
+    
    TEST_ASSERT_EQUAL_STRING_MESSAGE(expectedUsername, actualUsername, "Username match");
 
    
